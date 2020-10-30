@@ -1,0 +1,137 @@
+/* general */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* variables css */
+
+:root{
+    --footer-color: #cc9933;
+    --primary-color: #edb47c;
+    --primaryAlt-color: #cc9933;
+    --secondary-color: #3da5e2;
+    --secondaryAlt-color: #005385;
+    --thrird-color: #003855;
+    --base-color: #ffffff;
+    --baseAlt-color: #eeeeee;
+
+
+
+
+}
+
+
+/* carousel slider */
+
+.slider-texto {
+    
+    top: 50px;
+    
+}
+
+.slide-title-2 {
+    color: var(--primary-color);
+}
+
+.ejemplo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Infor section  */
+
+.title-primary {
+    color: var(--primaryAlt-color);
+
+}
+.image {
+    max-height: 289px;
+}
+
+
+/* infor card banel */
+
+.info-banel-color1 {
+    background-color: var(--secondary-color);
+}
+
+.info-banel-color2 {
+    background-color: var(--secondaryAlt-color);
+}
+
+.info-banel-color3 {
+    background-color: var(--thrird-color);
+}
+
+
+/* big banne'l */
+
+.big-bannel-1 {
+    background-color: var(--secondary-color);
+}
+
+.big-bannel-2 {
+    background-color: var(--primary-color);
+}
+
+/* blue zone */
+
+.bg-blue-home {
+    background-color: var(--secondaryAlt-color);
+    padding: 5rem 0;
+}
+
+/* big images */
+
+.title-big-img {
+    color: var(--primaryAlt-color);
+    line-height: .5;
+}
+
+/* 3 info container + coment */
+
+.title-md {
+    color: var(--primary-color);
+}
+
+
+/* suscripcion */
+.suscription {
+   
+    padding: 4rem 0;
+    background-image: url(../images/bg-suscription.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 740px;
+    padding: 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-color) ;
+    padding: 4rem 0;
+}
+
+.social-n {
+    font-size: 2rem;
+}
+
+/* about section */
+
+.icono {
+    /* min-width: 50px;
+    max-width: 80px;
+    min-height: 50px;
+    max-height: 80px;
+    width: 80px;
+    height: 80px; */
+    background-color: #e7b622;
+    border-radius: 50%;
+    color: #eeeeee;
+    font-size: 2rem;
+    /* font-weight: bold; */
+}

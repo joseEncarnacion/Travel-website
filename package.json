@@ -9,10 +9,14 @@
   "author": "Jose Luis Encarnacion",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3"
   }
 }

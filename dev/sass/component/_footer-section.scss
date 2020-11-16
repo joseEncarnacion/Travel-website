@@ -1,0 +1,15 @@
+.suscription-content {
+
+    @include tablet {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }
+}
+
+
+.footer {
+    background-color: $primary;
+    padding: 2rem 0;
+}

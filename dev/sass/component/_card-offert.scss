@@ -1,3 +1,5 @@
+/*cad ofert men and girl*/
+
 .text-offert-girl {
     background-color: $secondary;
     padding: 1rem 0.5rem;
@@ -6,4 +8,51 @@
 .text-offert-men {
     background-color: $primary;
     padding: 1rem 0.5rem;
+}
+
+
+
+.content-offert-text {
+
+    @include laptop {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        height: 650px;
+        min-height: 500px;
+        
+
+    }
+}
+
+.ofert-item {
+    @include laptop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+
+.content-offert-text-men {
+
+    @include laptop {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        height: 650px;
+        min-height: 500px;
+        
+
+    }
+}
+
+.ofert-item-men {
+    @include laptop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }

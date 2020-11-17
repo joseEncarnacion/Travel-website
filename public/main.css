@@ -1,3 +1,4 @@
+/*cad ofert men and girl*/
 .text-offert-girl {
   background-color: #00aeef;
   padding: 1rem 0.5rem; }
@@ -6,6 +7,35 @@
   background-color: #ebb73a;
   padding: 1rem 0.5rem; }
 
+@media screen and (min-width: 930px) {
+  .content-offert-text {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 650px;
+    min-height: 500px; } }
+
+@media screen and (min-width: 930px) {
+  .ofert-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+
+@media screen and (min-width: 930px) {
+  .content-offert-text-men {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 650px;
+    min-height: 500px; } }
+
+@media screen and (min-width: 930px) {
+  .ofert-item-men {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+
+/*big images / blog section and 3 banel without image*/
 .blog-section {
   margin: 1rem 2rem; }
   @media screen and (min-width: 730px) {
@@ -37,16 +67,69 @@
     .info-baner-container {
       margin: 1rem 1.5rem; } }
 
+/*suscription section*/
 @media screen and (min-width: 730px) {
   .suscription-content {
-    width: 100vw;
     display: flex;
-    justify-content: center;
-    background-color: red; } }
+    align-items: stretch; } }
 
+@media screen and (min-width: 930px) {
+  .suscription-content {
+    min-height: 500px;
+    height: 650px; } }
+
+@media screen and (min-width: 730px) {
+  .suscription {
+    height: 374px;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (min-width: 930px) {
+  .suscription {
+    padding-top: 20rem; } }
+
+@media screen and (min-width: 730px) {
+  .suscription-form-control {
+    width: 200px; } }
+
+/*Footer section*/
 .footer {
   background-color: #ebb73a;
   padding: 2rem 0; }
+
+.sn-item {
+  font-size: 2rem;
+  margin: 0 0.7rem; }
+
+.social-media {
+  text-align: center; }
+  @media screen and (min-width: 930px) {
+    .social-media {
+      text-align: left; } }
+
+/*icono*/
+.icono {
+  border-radius: 50%;
+  background-color: #ebb73a;
+  width: 75px;
+  height: 75px; }
+
+.menu-about {
+  margin-top: 5rem;
+  margin-bottom: 2rem; }
+
+.control-slider-text-1 {
+  position: absolute;
+  top: 0;
+  right: 0px; }
+
+.control-slider-text-2 {
+  position: absolute;
+  left: 0;
+  top: 0; }
 
 .text-base {
   color: #ffff; }

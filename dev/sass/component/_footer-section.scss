@@ -1,15 +1,60 @@
+/*suscription section*/
+
 .suscription-content {
 
     @include tablet {
-        width: 100vw;
         display: flex;
-        justify-content: center;
-        background-color: red;
+        align-items: stretch;
+    }
+    @include laptop {
+        min-height: 500px;
+        height: 650px;
+      
     }
 }
 
+.suscription {
+    
+    @include tablet {
+        height: 374px;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    @include laptop {
+        padding-top: 20rem;
+        
+    }
+
+}
+ .suscription-form-control  {
+    
+    @include tablet {
+        width: 200px;
+    }
+ }
+
+ /*Footer section*/
 
 .footer {
     background-color: $primary;
     padding: 2rem 0;
+}
+
+.sn-item {
+    font-size: 2rem;
+    margin: 0 0.7rem;
+}
+
+.social-media {
+    text-align: center;
+
+    @include laptop {
+        text-align: left;
+    }
+    
 }

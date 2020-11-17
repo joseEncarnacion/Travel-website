@@ -1,12 +1,47 @@
 
-.control-slider-text-1 {
+.slider-text {
+    width: 100%;
     position: absolute;
-    top: 0;
-    right: 0px;
+    right: 0;
+    top: 10%;
+    // left: ;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: right;
+    
+    @include laptop {
+        top: 15%;
+
+    }
     
 }
-.control-slider-text-2 {
+.slider-text-2 {
+    width: 100%;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 10%;
+    top: 10%;
+    // left: ;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+
+    @include laptop {
+        top: 15%;
+    }
+    
+    
 }
+
+.title-slider {
+    font-size: 1rem;
+    
+    @include laptop {
+        font-size: 1.5rem;
+
+    }
+}
+
